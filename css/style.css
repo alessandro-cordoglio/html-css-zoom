@@ -4,3 +4,69 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* COMMON */
+body{
+    background-color: black;
+    height: 100vh ;
+}
+
+header{
+    height: 50px;
+}
+
+main{
+    width: 90%;
+    margin: auto;
+    height: calc(100% - 130px)
+}
+
+footer{
+    background-color: #222222;
+    height: 80px;
+    color: white;
+}
+
+/* HEADER */
+.h-button{
+    text-align: right;
+}
+
+.b{
+    background-color: #4A4A4A;
+    color: white;
+    border: none;
+    height: 24px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.h-button:last-child{
+    margin-right: 5px;
+}
+
+/* MAIN */
+
+/* FOOTER */
+
+.footer-elements{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-footer{
+    display: flex;
+    padding:10px;
+}
+
+.video{
+    margin-left: 30px ;
+}
+
+.left-footer i{
+    margin-right:20px ;
+    margin-bottom: 10px;
+}
+
+
